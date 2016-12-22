@@ -48,9 +48,9 @@ public class Moves {
     }
     static void repeaterForPvp(){
         if(continueGame){
-            checkForWin();
             printBoard();
             enterCoordinate();
+            checkForWin();
         }
     }
     public static void checkForWin(){
