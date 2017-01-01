@@ -13,5 +13,8 @@ public class Main {
         else if(gameMode == 1){
             Moves.pvc();
         }
+        else if(gameMode == 2){
+            Moves.cvc();
+        }
     }
 }
